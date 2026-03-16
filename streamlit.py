@@ -3,7 +3,7 @@ import pickle
 
 st.title("Iris Prediction")
 
-with open("model_svm.pkl", "rb") as f: 
+with open("model_svm.pkl", "rb") as f:
     model = pickle.load(f)
 
 sl = st.slider("Sepal Length", 2.0, 10.0)
